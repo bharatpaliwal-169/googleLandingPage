@@ -1,0 +1,79 @@
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+
+/* solution || for the input focus */
+
+
+body{
+  background-color: #ffffff;
+}
+.navbar{
+  background-color: #ffffff!important;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.lan{
+  color: blue;
+}
+
+
+
+.footer{
+  background-color: #f2f2f2!important;
+  margin-top: 5.9rem;
+}
+.footer .nav-link{
+  color: #000;
+}
+
+.footer .navbar{
+  background-color: #f2f2f2!important;
+}
+
+.google-input{
+  border-radius: 30px;
+  padding: 7px;
+}
+
+.gg:hover{
+  border: 1.2px solid #c2c2c2;
+  outline: none;
+}
+
+.dropdown:hover{
+  background-color: #f2f2f2;
+  border-radius: 24px;
+}
+
+/* Issue */
+/* I am  not able to remove those outline borders when we click in input field or on buttons  */
