@@ -1,0 +1,9 @@
+Folowing are some issues with this clone:
+
+1) form validadtion is not simple.
+2) cannot pass the value from one html to another even after using localstorage
+3) mobile design. [V.IMP]
+4) overall ux is not very impressive.
+5) non collapsing bootstrap navbar.
+6) how to pust the label on the input field border?
+7) once signned  in how to change the sign-in button and to put a img-icon there?  

@@ -77,3 +77,13 @@ body{
 
 /* Issue */
 /* I am  not able to remove those outline borders when we click in input field or on buttons  */
+
+
+.sign{
+  color: #ffffff;
+  text-decoration: none;
+}
+.sign:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
